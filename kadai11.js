@@ -2,7 +2,7 @@ let e1 = document.getElementById('p1');
 let e2 = document.getElementById('p2');
 let e3 = document.getElementById('p3');
 
-console.log(e1.tagName);    
+e1.outerHTML = '<input type="input" id="p1" value="">';   
       
 e2.innerText = 'テキスト文字列';
 

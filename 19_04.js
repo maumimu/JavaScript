@@ -35,12 +35,11 @@
   
   function function1(num){
     if (num >= 10) {
-      let count = num  -10;
-      return count;
+      return num - 10;
     
-    } else {
+    } 
     return 100;
     
 
-    }    
+       
 } 
